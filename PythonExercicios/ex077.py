@@ -1,0 +1,15 @@
+palavras = ('alface', 'macarrao', 'feijoada', 'papel', 'borrifador', 'caveira')
+print('LISTA DAS PALAVRAS')
+c = 0
+for c in range(0, 6):
+    letrasa = palavras[c].count('a')
+    letrase = palavras[c].count('e')
+    letrasi = palavras[c].count('i')
+    letraso = palavras[c].count('o')
+    letrasu = palavras[c].count('u')
+    print('A palavra {} tem :'.format(palavras[c]), end='')
+    print(' {} letras a, '.format(letrasa), end='')
+    print(' {} letras e, '.format(letrase), end='')
+    print(' {} letras i, '.format(letrasi), end='')
+    print(' {} letras o, '.format(letraso), end='')
+    print('e {} letras u.'.format(letrasu))
